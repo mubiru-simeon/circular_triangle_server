@@ -36,6 +36,8 @@ This Symfony application provides a geometry calculation API with support for ci
     "circumference": 12.56
   }
   ```
+- **eg:** localhost:8000/circle/567567
+
 
 ### Triangle Calculations
 - **Endpoint**: GET /triangle/{a}/{b}/{c}
@@ -54,6 +56,8 @@ This Symfony application provides a geometry calculation API with support for ci
     "circumference": 12.0
   }
   ```
+- **eg:** localhost:8000/triangle/3.0/4.0/5.0
+
 
 ### Sum Operations
 The GeometryCalculator service provides methods for:
